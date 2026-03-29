@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Rohit Kumar Portfolio</title>
+    <link rel="stylesheet" href="../design/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">Rohit</div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Portfolio</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/rohitcse14" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:rkmr2003@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/_rohit_26k/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="projects-main">
+            <section class="projects-header">
+                <h1>My Projects</h1>
+            </section>
+
+            <!-- Project 1: VSAM Migrator -->
+            <section class="project-item">
+                <div class="project-content">
+                    <div class="project-info">
+                        <h2><i class="fas fa-database"></i> VSAM-Migrator</h2>
+                        <p class="project-type"><span class="badge">Mainframe Modernization</span> <span class="badge">EBCDIC Conversion</span> <span class="badge">Data Migration</span></p>
+                        <p class="project-tagline"><em>Intelligent Legacy Data Transformation Engine for Seamless Cloud Migration</em></p>
+                        <p class="project-description">
+                            A sophisticated Java-based enterprise tool that revolutionizes VSAM file migration by intelligently transforming EBCDIC-encoded mainframe datasets into modern, cloud-ready CSV formats. VSAM-Migrator analyzes COBOL copybooks with precision, auto-generates optimized DDL statements, and creates enterprise-grade database schemas—eliminating tedious manual data transformation and accelerating legacy-to-cloud modernization timelines.
+                        </p>
+                        <div class="project-features">
+                            <h4><i class="fas fa-star"></i> Key Features:</h4>
+                            <ul class="features-list">
+                                <li>EBCDIC ↔ ASCII Encoding Detection & Conversion</li>
+                                <li>Intelligent Copybook Analysis & Parsing</li>
+                                <li>Automatic DDL Generation for VSAM Structures</li>
+                                <li>Batch VSAM File Processing (Multi-threaded)</li>
+                                <li>CSV Export with Data Validation</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <h4><i class="fas fa-wrench"></i> Technology Stack:</h4>
+                            <div class="tech-list">
+                                <span class="tech-tag">Java 11+</span>
+                                <span class="tech-tag">Spring Boot</span>
+                                <span class="tech-tag">JRecord</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">H2 Database</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-video">
+                        <div class="video-wrapper">
+                            <video controls poster="../images/thumbnail-vsam-migrator.jpg" class="project-video-player">
+                                <source src="../videos/Vsam-Migrator.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-overlay"></div>
+                        </div>
+                        <p class="video-caption">Project Demo - VSAM-Migrator Platform</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- More Projects Coming -->
+            <section class="projects-coming">
+                <div class="coming-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>More Projects Coming Soon</h3>
+                    <p>Additional enterprise solutions and modernization case studies will be featured here</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
