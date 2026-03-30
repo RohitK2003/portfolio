@@ -431,16 +431,22 @@ html, body {
 }
 
 .about-section h2 i {
-    color: var(--accent-color);
+    color: white;
     font-size: 2.2rem;
-    background: rgba(33, 212, 253, 0.1);
+    background: var(--accent-color);
     width: 50px;
     height: 50px;
-    display: flex;
+    min-width: 50px;
+    min-height: 50px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     transition: all 0.3s ease;
+    flex-shrink: 0;
+    line-height: 1;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .about-section h2:hover i {
@@ -466,6 +472,16 @@ html, body {
     border-color: var(--accent-color);
 }
 
+.intro-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.intro-content {
+    flex: 1;
+}
+
 .intro-content p {
     margin: 0.8rem 0;
     font-size: 1.05rem;
@@ -485,6 +501,19 @@ html, body {
     margin-right: 0.75rem;
     width: 24px;
     font-weight: bold;
+}
+
+.intro-image {
+    flex-shrink: 0;
+}
+
+.intro-image .profile-image {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    border: 4px solid var(--primary-color);
+    display: block;
 }
 
 /* Objective Section */
